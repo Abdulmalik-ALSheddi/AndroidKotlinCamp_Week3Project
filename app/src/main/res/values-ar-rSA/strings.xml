@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">كار اي</string>
+    <string name="name">الاسم</string>
+    <string name="password">كلمة المرور</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="signIn">تسجيل الدخول</string>
+    <string name="home">الصفحة الرئيسية</string>
+    <string name="welcome">مرحبا..</string>
+    <string name="wrong_name">اسم خاطئ!!</string>
+    <string name="wrong_password">كلمة مرور خاطئة!!</string>
+</resources>

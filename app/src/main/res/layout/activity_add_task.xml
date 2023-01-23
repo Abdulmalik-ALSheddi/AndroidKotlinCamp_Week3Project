@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddTaskActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/AToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navigationIcon="@drawable/ic_baseline_arrow_back_24"
+        app:title="Add a Task"
+        app:titleTextColor="#B72226"/>
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="Title"
+        android:textColor="#B72226"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/ATitleET"
+        app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Note"
+            android:textColor="#B72226"
+            android:textSize="16sp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginHorizontal="16dp"
+            app:layout_constraintBottom_toTopOf="@+id/ANoteET"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/ATitleET"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginHorizontal="16dp"
+        android:background="@drawable/edit_text_background"
+        android:hint="task title"
+        android:layout_marginBottom="25dp"
+        android:paddingStart="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="parent" />
+
+        <EditText
+            android:id="@+id/ANoteET"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:paddingStart="16dp"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/edit_text_background"
+            android:layout_marginHorizontal="16dp"
+            app:layout_constraintBottom_toTopOf="@+id/AAddBU"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/AAddBU"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="16dp"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="#B72226"
+        android:text="add"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

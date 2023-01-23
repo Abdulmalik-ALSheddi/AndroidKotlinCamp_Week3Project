@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Car E</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="signIn">Sign in</string>
+    <string name="home">Home</string>
+    <string name="welcome">Welcome..</string>
+    <string name="wrong_name">Wrong Name!!</string>
+    <string name="wrong_password">Wrong Password!!</string>
+</resources>
